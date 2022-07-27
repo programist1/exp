@@ -20,6 +20,10 @@ Route::get('/', function () {
 Route::get('/cat', function () {
     return "hello";
 });
+
+Route::get('/d', function () {
+    return "hello";
+});
 Route::get('/dog
 ', function () {
     return "hello";
